@@ -1,0 +1,233 @@
+@font-face {
+    font-family: 'ubunto';
+    src: url(fonts/Ubuntu-Medium.ttf);
+   
+  }
+  @font-face {
+    font-family: 'Bkoodak';
+    src: url(fonts/Bkoodak.ttf);
+  }
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    font-family: 'ubunto';
+}
+
+a{
+    text-decoration:none
+}
+
+img {
+    max-width: 70%;
+    height: auto;
+    border-radius: 15px;
+
+  }
+
+.resume-button{
+    background-color: #3e3e3e;
+    color: #f4f4f4;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    margin: 1.5rem 2rem 1rem 2rem;
+    border-radius: 10px;
+    font-family: 'Bkoodak';
+    font-size: 1.5rem;
+}
+.resume-button:hover{
+    background-color: #5e5e5e;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.introduce{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px;
+}
+
+
+.introduce-info{
+    color:#6f6f6f;
+    font-size: 3rem;
+    text-align: center;
+    margin: 1rem 2rem 1rem 2rem;
+
+}
+.name{
+    color:#3e3e3e;
+
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image{
+   border-radius: 13%;
+}
+
+.social-items{
+    width: 30;
+    height: 30;
+    margin: 0rem 1rem 0rem 1rem;
+    font-size: 27px;
+    color: #b7b7b7;
+}
+
+
+.telegram:hover{
+    color: #3f86d8;
+}
+
+.gitlab:hover{
+    color: #F88353;
+}
+
+.instagram:hover {
+  display: inline-block;
+  width: 23px;
+  height: 22px;
+  text-align: center;
+  border-radius: 30px;
+  color: #fff;
+  line-height: 20px;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+.app-title{
+    color:#6f6f6f;
+    font-family: 'Bkoodak';
+}
+
+.app-name{
+
+    font-family: 'Bkoodak';
+
+}
+.myWorkd{
+    display: flex;
+    flex-direction: column;
+}
+
+.apps{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rainCloud{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10%;
+}
+.app1{
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0rem 1rem;
+    height: 100%;
+}
+
+.honarestanYab{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.app2{
+    margin-bottom: 60px;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+ 
+   .rainCloud{
+       display: flex;
+       flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+   }
+   .app1{
+       margin-bottom: 1rem;
+       display: flex;
+       justify-content: center;
+       
+   }
+
+.introduce-info{
+    color:#6f6f6f;
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem 2rem 1rem 2rem;
+
+}
+.name{
+    color:#3e3e3e;
+
+}
+
+.resume-button{
+    background-color: #3e3e3e;
+    color: #f4f4f4;
+    padding: 0.5rem 3rem 0.5rem 3rem;
+    margin: 1.5rem 2rem 1rem 2rem;
+    border-radius: 10px;
+    font-family: 'Bkoodak';
+    font-size: 1.2rem;
+}
+
+.telegram{
+    color: #3f86d8;
+}
+
+.gitlab{
+    color: #F88353;
+}
+
+.instagram {
+  display: inline-block;
+  width: 23px;
+  font-size: 24.32px;
+
+  height: 25px;
+  text-align: center;
+  border-radius: 26px;
+  color: #fff;
+  line-height: 15px;
+  vertical-align: middle;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+
+.image{
+    width: 40%;
+    height: auto;
+}
+   img{
+       width: 80%;
+      height: 250;
+   }
+  }
