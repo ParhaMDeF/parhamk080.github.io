@@ -75,8 +75,8 @@ img {
 
 .image{
    border-radius: none;
-   width: 18rem;
-   height: 27rem;
+   width: 20rem;
+   height: 30rem;
     
 }
 
@@ -245,7 +245,7 @@ img {
 
 }
 .image{
-    width: 50%;
+    width: 55%;
     height: auto;
 }
    img{
