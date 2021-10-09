@@ -22,7 +22,6 @@ a{
 
 img {
     max-width: 70%;
-    height: auto;
     border-radius: 15px;
 
   }
@@ -75,7 +74,10 @@ img {
 }
 
 .image{
-   border-radius: 13%;
+   border-radius: none;
+   width: 18rem;
+   height: 27rem;
+    
 }
 
 .social-items{
@@ -243,7 +245,7 @@ img {
 
 }
 .image{
-    width: 40%;
+    width: 50%;
     height: auto;
 }
    img{
